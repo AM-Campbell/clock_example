@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="clock.css" />
+    <title>TIME</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1 id="clock" class="big-number"></h1>
+      <div class="button-group">
+        <button
+          id="twelve"
+          onClick="handleTwelveClick()"
+          class="time-button selected"
+        >
+          12h
+        </button>
+        <button
+          id="twenty-four"
+          onClick="handleTwentyFourClick()"
+          class="time-button"
+        >
+          24h
+        </button>
+      </div>
+    </div>
+    <a href="./about.html" class="nav">About</a>
+  </body>
+  <footer>Aidan Campbell 2022</footer>
+  <script type="text/javascript" src="main.js"></script>
+</html>
